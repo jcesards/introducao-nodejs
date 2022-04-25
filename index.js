@@ -18,7 +18,7 @@ function soma(request, response) {
     var resultado = parseInt(n1) + parseInt(n2)
     return response.send(`A soma dos numeros foi: ${resultado}`)
 }
-
+ 
 function subtracao(request, response) {
     var n1 = request.params.num1
     var n2 = request.params.num2
